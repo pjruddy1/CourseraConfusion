@@ -1,12 +1,3 @@
-.modal-header {
-  background-color: #512DA8;
-  color: floralwhite; }
-  .modal-header .close {
-    color: #9575CD; }
-
-.modal-content {
-  background-color: #D1C4E9; }
-
 .row-header {
   margin: 0px auto;
   padding: 0px 0px; }
@@ -56,8 +47,19 @@ body {
       left: 0;
       min-height: 300px; }
 
-#carouselButton {
+#carousel-button {
   right: 0px;
   position: absolute;
-  bottom: 0px;
-  z-index: 1; }
+  bottom: 0px; }
+
+.modal .modal-header {
+  background-color: #512DA8;
+  color: floralwhite; }
+  .modal .modal-header button {
+    color: floralwhite; }
+
+.modal .modal-body {
+  background-color: #D1C4E9; }
+
+.modal .modal-footer {
+  background: #9575CD; }

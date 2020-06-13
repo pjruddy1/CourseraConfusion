@@ -1,12 +1,3 @@
-.modal-header {
-  background-color: #512DA8;
-  color: floralwhite; }
-  .modal-header .close {
-    color: #9575CD; }
-
-.modal-content {
-  background-color: #D1C4E9; }
-
 .row-header {
   margin: 0px auto;
   padding: 0px 0px; }
@@ -61,3 +52,12 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+.modal-header {
+  background: #512DA8;
+  color: white; }
+  .modal-header button {
+    color: floralwhite; }
+
+.modal-body {
+  background: #D1C4E9; }
